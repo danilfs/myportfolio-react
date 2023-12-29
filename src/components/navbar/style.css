@@ -64,3 +64,7 @@
 	width: 100%;
 	background-color: var(--accent);
 }
+
+.navbar{
+	display: flex;
+}

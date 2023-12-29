@@ -1,7 +1,6 @@
-import "./style.css"
-import project1 from "./../img/projects/01.jpg"
+import "./style.css";
 
-const Project = ({title,img,skills}) => {
+const Project = ({ title, img, skills }) => {
   return (
     <>
       <li className="project">
