@@ -10,13 +10,14 @@ const Projects = () => {
           <h2 className="title-1">Projects</h2>
           <h4 className="h4tag">My Projects</h4>
           <ul className="projects">
-            {projects.map((project) => {
+            {projects.map((project,index) => {
               return (
                 <Project
-                  key={project.title}
+                  key={index}
                   title={project.title}
                   img={project.img}
                   skills={project.skills}
+                  index= {index}
                 />
               );
             })}
